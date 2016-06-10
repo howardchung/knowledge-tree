@@ -12,10 +12,16 @@ app.set('port', (process.env.PORT || 5000));
 
 app.get('/', function(request, response) {
   response.end(`
-    <html>
-      <head>
-      </head>
-      <body>hello world</body>
+    <!DOCTYPE html>		
+    <html lang='en-US'>		
+    <head>		
+      <meta charset='UTF-8'>		
+      <title>todo</title>		
+      <meta name='author' content='Nicholas Hanson-Holtry'>		
+    </head>
+    <body>
+    hello world
+    </body>		
     </html>
   `)
 });
